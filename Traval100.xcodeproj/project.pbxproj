@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841ED927167EFEF500252A6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841ED926167EFEF500252A6D /* UIKit.framework */; };
+		841ED929167EFEF500252A6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841ED928167EFEF500252A6D /* Foundation.framework */; };
+		841ED92B167EFEF500252A6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841ED92A167EFEF500252A6D /* CoreGraphics.framework */; };
+		841ED931167EFEF500252A6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 841ED92F167EFEF500252A6D /* InfoPlist.strings */; };
+		841ED933167EFEF500252A6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841ED932167EFEF500252A6D /* main.m */; };
+		841ED937167EFEF500252A6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841ED936167EFEF500252A6D /* AppDelegate.m */; };
+		841ED93A167EFEF500252A6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841ED939167EFEF500252A6D /* ViewController.m */; };
+		841ED948167EFF2600252A6D /* welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED947167EFF2600252A6D /* welcome.png */; };
+		841ED975167EFF4900252A6D /* 修改密码.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED94B167EFF4900252A6D /* 修改密码.png */; };
+		841ED976167EFF4900252A6D /* 公告.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED94C167EFF4900252A6D /* 公告.png */; };
+		841ED977167EFF4900252A6D /* 关于我们.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED94D167EFF4900252A6D /* 关于我们.png */; };
+		841ED978167EFF4900252A6D /* 关于我们logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED94E167EFF4900252A6D /* 关于我们logo.png */; };
+		841ED979167EFF4900252A6D /* 取消订单.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED94F167EFF4900252A6D /* 取消订单.png */; };
+		841ED97A167EFF4900252A6D /* 回答.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED950167EFF4900252A6D /* 回答.png */; };
+		841ED97B167EFF4900252A6D /* 帐户.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED951167EFF4900252A6D /* 帐户.png */; };
+		841ED97C167EFF4900252A6D /* 建议.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED952167EFF4900252A6D /* 建议.png */; };
+		841ED97D167EFF4900252A6D /* 忘记密码.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED953167EFF4900252A6D /* 忘记密码.png */; };
+		841ED97E167EFF4900252A6D /* 我的订单项背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED954167EFF4900252A6D /* 我的订单项背景.png */; };
+		841ED97F167EFF4900252A6D /* 找回密码.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED955167EFF4900252A6D /* 找回密码.png */; };
+		841ED980167EFF4900252A6D /* 提交建议.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED956167EFF4900252A6D /* 提交建议.png */; };
+		841ED981167EFF4900252A6D /* 提示框.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED957167EFF4900252A6D /* 提示框.png */; };
+		841ED982167EFF4900252A6D /* 提问.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED958167EFF4900252A6D /* 提问.png */; };
+		841ED983167EFF4900252A6D /* 支付.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED959167EFF4900252A6D /* 支付.png */; };
+		841ED984167EFF4900252A6D /* 查看更多.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED95A167EFF4900252A6D /* 查看更多.png */; };
+		841ED985167EFF4900252A6D /* 标题栏.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED95B167EFF4900252A6D /* 标题栏.png */; };
+		841ED986167EFF4900252A6D /* 汽车票预定.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED95C167EFF4900252A6D /* 汽车票预定.png */; };
+		841ED987167EFF4900252A6D /* 没有账号.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED95D167EFF4900252A6D /* 没有账号.png */; };
+		841ED988167EFF4900252A6D /* 注册.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED95E167EFF4900252A6D /* 注册.png */; };
+		841ED989167EFF4900252A6D /* 注册登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED95F167EFF4900252A6D /* 注册登录.png */; };
+		841ED98A167EFF4900252A6D /* 班次列表单项背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED960167EFF4900252A6D /* 班次列表单项背景.png */; };
+		841ED98B167EFF4900252A6D /* 电话预定.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED961167EFF4900252A6D /* 电话预定.png */; };
+		841ED98C167EFF4900252A6D /* 登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED962167EFF4900252A6D /* 登录.png */; };
+		841ED98D167EFF4900252A6D /* 目的地查询.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED963167EFF4900252A6D /* 目的地查询.png */; };
+		841ED98E167EFF4900252A6D /* 确认提交.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED964167EFF4900252A6D /* 确认提交.png */; };
+		841ED98F167EFF4900252A6D /* 箭头.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED965167EFF4900252A6D /* 箭头.png */; };
+		841ED990167EFF4900252A6D /* 继续预定.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED966167EFF4900252A6D /* 继续预定.png */; };
+		841ED991167EFF4900252A6D /* 背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED967167EFF4900252A6D /* 背景.png */; };
+		841ED992167EFF4900252A6D /* 车票查询.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED968167EFF4900252A6D /* 车票查询.png */; };
+		841ED993167EFF4900252A6D /* 返回.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED969167EFF4900252A6D /* 返回.png */; };
+		841ED994167EFF4900252A6D /* 退出登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED96A167EFF4900252A6D /* 退出登录.png */; };
+		841ED995167EFF4900252A6D /* 选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED96B167EFF4900252A6D /* 选中.png */; };
+		841ED996167EFF4900252A6D /* 选择框中部.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED96C167EFF4900252A6D /* 选择框中部.png */; };
+		841ED997167EFF4900252A6D /* 选择框头部.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED96D167EFF4900252A6D /* 选择框头部.png */; };
+		841ED998167EFF4900252A6D /* 选择框头部@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED96E167EFF4900252A6D /* 选择框头部@2x.png */; };
+		841ED999167EFF4900252A6D /* 选择框底部.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED96F167EFF4900252A6D /* 选择框底部.png */; };
+		841ED99A167EFF4900252A6D /* 透明背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED970167EFF4900252A6D /* 透明背景.png */; };
+		841ED99B167EFF4900252A6D /* 隐藏键盘.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED971167EFF4900252A6D /* 隐藏键盘.png */; };
+		841ED99C167EFF4900252A6D /* 预定.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED972167EFF4900252A6D /* 预定.png */; };
+		841ED99D167EFF4900252A6D /* 预定失效.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED973167EFF4900252A6D /* 预定失效.png */; };
+		841ED99E167EFF4900252A6D /* 首页面背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 841ED974167EFF4900252A6D /* 首页面背景.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		841ED922167EFEF500252A6D /* Traval100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Traval100.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841ED926167EFEF500252A6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		841ED928167EFEF500252A6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		841ED92A167EFEF500252A6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		841ED92E167EFEF500252A6D /* Traval100-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Traval100-Info.plist"; sourceTree = "<group>"; };
+		841ED930167EFEF500252A6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		841ED932167EFEF500252A6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		841ED934167EFEF500252A6D /* Traval100-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Traval100-Prefix.pch"; sourceTree = "<group>"; };
+		841ED935167EFEF500252A6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		841ED936167EFEF500252A6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		841ED938167EFEF500252A6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		841ED939167EFEF500252A6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		841ED947167EFF2600252A6D /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome.png; sourceTree = "<group>"; };
+		841ED94B167EFF4900252A6D /* 修改密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修改密码.png"; sourceTree = "<group>"; };
+		841ED94C167EFF4900252A6D /* 公告.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "公告.png"; sourceTree = "<group>"; };
+		841ED94D167EFF4900252A6D /* 关于我们.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于我们.png"; sourceTree = "<group>"; };
+		841ED94E167EFF4900252A6D /* 关于我们logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于我们logo.png"; sourceTree = "<group>"; };
+		841ED94F167EFF4900252A6D /* 取消订单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消订单.png"; sourceTree = "<group>"; };
+		841ED950167EFF4900252A6D /* 回答.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "回答.png"; sourceTree = "<group>"; };
+		841ED951167EFF4900252A6D /* 帐户.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "帐户.png"; sourceTree = "<group>"; };
+		841ED952167EFF4900252A6D /* 建议.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "建议.png"; sourceTree = "<group>"; };
+		841ED953167EFF4900252A6D /* 忘记密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "忘记密码.png"; sourceTree = "<group>"; };
+		841ED954167EFF4900252A6D /* 我的订单项背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的订单项背景.png"; sourceTree = "<group>"; };
+		841ED955167EFF4900252A6D /* 找回密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "找回密码.png"; sourceTree = "<group>"; };
+		841ED956167EFF4900252A6D /* 提交建议.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提交建议.png"; sourceTree = "<group>"; };
+		841ED957167EFF4900252A6D /* 提示框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提示框.png"; sourceTree = "<group>"; };
+		841ED958167EFF4900252A6D /* 提问.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提问.png"; sourceTree = "<group>"; };
+		841ED959167EFF4900252A6D /* 支付.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "支付.png"; sourceTree = "<group>"; };
+		841ED95A167EFF4900252A6D /* 查看更多.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查看更多.png"; sourceTree = "<group>"; };
+		841ED95B167EFF4900252A6D /* 标题栏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标题栏.png"; sourceTree = "<group>"; };
+		841ED95C167EFF4900252A6D /* 汽车票预定.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "汽车票预定.png"; sourceTree = "<group>"; };
+		841ED95D167EFF4900252A6D /* 没有账号.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "没有账号.png"; sourceTree = "<group>"; };
+		841ED95E167EFF4900252A6D /* 注册.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "注册.png"; sourceTree = "<group>"; };
+		841ED95F167EFF4900252A6D /* 注册登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "注册登录.png"; sourceTree = "<group>"; };
+		841ED960167EFF4900252A6D /* 班次列表单项背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "班次列表单项背景.png"; sourceTree = "<group>"; };
+		841ED961167EFF4900252A6D /* 电话预定.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "电话预定.png"; sourceTree = "<group>"; };
+		841ED962167EFF4900252A6D /* 登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录.png"; sourceTree = "<group>"; };
+		841ED963167EFF4900252A6D /* 目的地查询.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "目的地查询.png"; sourceTree = "<group>"; };
+		841ED964167EFF4900252A6D /* 确认提交.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "确认提交.png"; sourceTree = "<group>"; };
+		841ED965167EFF4900252A6D /* 箭头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "箭头.png"; sourceTree = "<group>"; };
+		841ED966167EFF4900252A6D /* 继续预定.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "继续预定.png"; sourceTree = "<group>"; };
+		841ED967167EFF4900252A6D /* 背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景.png"; sourceTree = "<group>"; };
+		841ED968167EFF4900252A6D /* 车票查询.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "车票查询.png"; sourceTree = "<group>"; };
+		841ED969167EFF4900252A6D /* 返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回.png"; sourceTree = "<group>"; };
+		841ED96A167EFF4900252A6D /* 退出登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "退出登录.png"; sourceTree = "<group>"; };
+		841ED96B167EFF4900252A6D /* 选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中.png"; sourceTree = "<group>"; };
+		841ED96C167EFF4900252A6D /* 选择框中部.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择框中部.png"; sourceTree = "<group>"; };
+		841ED96D167EFF4900252A6D /* 选择框头部.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择框头部.png"; sourceTree = "<group>"; };
+		841ED96E167EFF4900252A6D /* 选择框头部@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择框头部@2x.png"; sourceTree = "<group>"; };
+		841ED96F167EFF4900252A6D /* 选择框底部.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择框底部.png"; sourceTree = "<group>"; };
+		841ED970167EFF4900252A6D /* 透明背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "透明背景.png"; sourceTree = "<group>"; };
+		841ED971167EFF4900252A6D /* 隐藏键盘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "隐藏键盘.png"; sourceTree = "<group>"; };
+		841ED972167EFF4900252A6D /* 预定.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "预定.png"; sourceTree = "<group>"; };
+		841ED973167EFF4900252A6D /* 预定失效.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "预定失效.png"; sourceTree = "<group>"; };
+		841ED974167EFF4900252A6D /* 首页面背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页面背景.png"; sourceTree = "<group>"; };
+		841ED99F167EFF6600252A6D /* TicketBookingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketBookingViewController.h; sourceTree = "<group>"; };
+		841ED9A0167EFF6600252A6D /* TicketBookingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketBookingViewController.m; sourceTree = "<group>"; };
+		841ED9A1167EFF6600252A6D /* AccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		841ED9A2167EFF6600252A6D /* AccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		841ED9A3167EFF6600252A6D /* AnnountcementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnnountcementViewController.h; sourceTree = "<group>"; };
+		841ED9A4167EFF6600252A6D /* AnnountcementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnnountcementViewController.m; sourceTree = "<group>"; };
+		841ED9A5167EFF6600252A6D /* SuggestionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuggestionViewController.h; sourceTree = "<group>"; };
+		841ED9A6167EFF6600252A6D /* SuggestionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuggestionViewController.m; sourceTree = "<group>"; };
+		841ED9A7167EFF6600252A6D /* AboutUsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		841ED9A8167EFF6600252A6D /* AboutUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		841ED9A9167EFF6600252A6D /* RegistrationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		841ED9AA167EFF6600252A6D /* RegistrationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841ED91F167EFEF500252A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841ED927167EFEF500252A6D /* UIKit.framework in Frameworks */,
+				841ED929167EFEF500252A6D /* Foundation.framework in Frameworks */,
+				841ED92B167EFEF500252A6D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841ED917167EFEF500252A6D = {
+			isa = PBXGroup;
+			children = (
+				841ED92C167EFEF500252A6D /* Traval100 */,
+				841ED925167EFEF500252A6D /* Frameworks */,
+				841ED923167EFEF500252A6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		841ED923167EFEF500252A6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841ED922167EFEF500252A6D /* Traval100.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841ED925167EFEF500252A6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				841ED926167EFEF500252A6D /* UIKit.framework */,
+				841ED928167EFEF500252A6D /* Foundation.framework */,
+				841ED92A167EFEF500252A6D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		841ED92C167EFEF500252A6D /* Traval100 */ = {
+			isa = PBXGroup;
+			children = (
+				841ED94A167EFF4900252A6D /* 小图 */,
+				841ED947167EFF2600252A6D /* welcome.png */,
+				841ED935167EFEF500252A6D /* AppDelegate.h */,
+				841ED936167EFEF500252A6D /* AppDelegate.m */,
+				841ED938167EFEF500252A6D /* ViewController.h */,
+				841ED939167EFEF500252A6D /* ViewController.m */,
+				841ED99F167EFF6600252A6D /* TicketBookingViewController.h */,
+				841ED9A0167EFF6600252A6D /* TicketBookingViewController.m */,
+				841ED9A1167EFF6600252A6D /* AccountViewController.h */,
+				841ED9A2167EFF6600252A6D /* AccountViewController.m */,
+				841ED9A3167EFF6600252A6D /* AnnountcementViewController.h */,
+				841ED9A4167EFF6600252A6D /* AnnountcementViewController.m */,
+				841ED9A5167EFF6600252A6D /* SuggestionViewController.h */,
+				841ED9A6167EFF6600252A6D /* SuggestionViewController.m */,
+				841ED9A7167EFF6600252A6D /* AboutUsViewController.h */,
+				841ED9A8167EFF6600252A6D /* AboutUsViewController.m */,
+				841ED9A9167EFF6600252A6D /* RegistrationViewController.h */,
+				841ED9AA167EFF6600252A6D /* RegistrationViewController.m */,
+				841ED92D167EFEF500252A6D /* Supporting Files */,
+			);
+			path = Traval100;
+			sourceTree = "<group>";
+		};
+		841ED92D167EFEF500252A6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				841ED92E167EFEF500252A6D /* Traval100-Info.plist */,
+				841ED92F167EFEF500252A6D /* InfoPlist.strings */,
+				841ED932167EFEF500252A6D /* main.m */,
+				841ED934167EFEF500252A6D /* Traval100-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		841ED94A167EFF4900252A6D /* 小图 */ = {
+			isa = PBXGroup;
+			children = (
+				841ED94B167EFF4900252A6D /* 修改密码.png */,
+				841ED94C167EFF4900252A6D /* 公告.png */,
+				841ED94D167EFF4900252A6D /* 关于我们.png */,
+				841ED94E167EFF4900252A6D /* 关于我们logo.png */,
+				841ED94F167EFF4900252A6D /* 取消订单.png */,
+				841ED950167EFF4900252A6D /* 回答.png */,
+				841ED951167EFF4900252A6D /* 帐户.png */,
+				841ED952167EFF4900252A6D /* 建议.png */,
+				841ED953167EFF4900252A6D /* 忘记密码.png */,
+				841ED954167EFF4900252A6D /* 我的订单项背景.png */,
+				841ED955167EFF4900252A6D /* 找回密码.png */,
+				841ED956167EFF4900252A6D /* 提交建议.png */,
+				841ED957167EFF4900252A6D /* 提示框.png */,
+				841ED958167EFF4900252A6D /* 提问.png */,
+				841ED959167EFF4900252A6D /* 支付.png */,
+				841ED95A167EFF4900252A6D /* 查看更多.png */,
+				841ED95B167EFF4900252A6D /* 标题栏.png */,
+				841ED95C167EFF4900252A6D /* 汽车票预定.png */,
+				841ED95D167EFF4900252A6D /* 没有账号.png */,
+				841ED95E167EFF4900252A6D /* 注册.png */,
+				841ED95F167EFF4900252A6D /* 注册登录.png */,
+				841ED960167EFF4900252A6D /* 班次列表单项背景.png */,
+				841ED961167EFF4900252A6D /* 电话预定.png */,
+				841ED962167EFF4900252A6D /* 登录.png */,
+				841ED963167EFF4900252A6D /* 目的地查询.png */,
+				841ED964167EFF4900252A6D /* 确认提交.png */,
+				841ED965167EFF4900252A6D /* 箭头.png */,
+				841ED966167EFF4900252A6D /* 继续预定.png */,
+				841ED967167EFF4900252A6D /* 背景.png */,
+				841ED968167EFF4900252A6D /* 车票查询.png */,
+				841ED969167EFF4900252A6D /* 返回.png */,
+				841ED96A167EFF4900252A6D /* 退出登录.png */,
+				841ED96B167EFF4900252A6D /* 选中.png */,
+				841ED96C167EFF4900252A6D /* 选择框中部.png */,
+				841ED96D167EFF4900252A6D /* 选择框头部.png */,
+				841ED96E167EFF4900252A6D /* 选择框头部@2x.png */,
+				841ED96F167EFF4900252A6D /* 选择框底部.png */,
+				841ED970167EFF4900252A6D /* 透明背景.png */,
+				841ED971167EFF4900252A6D /* 隐藏键盘.png */,
+				841ED972167EFF4900252A6D /* 预定.png */,
+				841ED973167EFF4900252A6D /* 预定失效.png */,
+				841ED974167EFF4900252A6D /* 首页面背景.png */,
+			);
+			path = "小图";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841ED921167EFEF500252A6D /* Traval100 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841ED940167EFEF500252A6D /* Build configuration list for PBXNativeTarget "Traval100" */;
+			buildPhases = (
+				841ED91E167EFEF500252A6D /* Sources */,
+				841ED91F167EFEF500252A6D /* Frameworks */,
+				841ED920167EFEF500252A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Traval100;
+			productName = Traval100;
+			productReference = 841ED922167EFEF500252A6D /* Traval100.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841ED919167EFEF500252A6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = admin;
+			};
+			buildConfigurationList = 841ED91C167EFEF500252A6D /* Build configuration list for PBXProject "Traval100" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 841ED917167EFEF500252A6D;
+			productRefGroup = 841ED923167EFEF500252A6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841ED921167EFEF500252A6D /* Traval100 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841ED920167EFEF500252A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841ED931167EFEF500252A6D /* InfoPlist.strings in Resources */,
+				841ED948167EFF2600252A6D /* welcome.png in Resources */,
+				841ED975167EFF4900252A6D /* 修改密码.png in Resources */,
+				841ED976167EFF4900252A6D /* 公告.png in Resources */,
+				841ED977167EFF4900252A6D /* 关于我们.png in Resources */,
+				841ED978167EFF4900252A6D /* 关于我们logo.png in Resources */,
+				841ED979167EFF4900252A6D /* 取消订单.png in Resources */,
+				841ED97A167EFF4900252A6D /* 回答.png in Resources */,
+				841ED97B167EFF4900252A6D /* 帐户.png in Resources */,
+				841ED97C167EFF4900252A6D /* 建议.png in Resources */,
+				841ED97D167EFF4900252A6D /* 忘记密码.png in Resources */,
+				841ED97E167EFF4900252A6D /* 我的订单项背景.png in Resources */,
+				841ED97F167EFF4900252A6D /* 找回密码.png in Resources */,
+				841ED980167EFF4900252A6D /* 提交建议.png in Resources */,
+				841ED981167EFF4900252A6D /* 提示框.png in Resources */,
+				841ED982167EFF4900252A6D /* 提问.png in Resources */,
+				841ED983167EFF4900252A6D /* 支付.png in Resources */,
+				841ED984167EFF4900252A6D /* 查看更多.png in Resources */,
+				841ED985167EFF4900252A6D /* 标题栏.png in Resources */,
+				841ED986167EFF4900252A6D /* 汽车票预定.png in Resources */,
+				841ED987167EFF4900252A6D /* 没有账号.png in Resources */,
+				841ED988167EFF4900252A6D /* 注册.png in Resources */,
+				841ED989167EFF4900252A6D /* 注册登录.png in Resources */,
+				841ED98A167EFF4900252A6D /* 班次列表单项背景.png in Resources */,
+				841ED98B167EFF4900252A6D /* 电话预定.png in Resources */,
+				841ED98C167EFF4900252A6D /* 登录.png in Resources */,
+				841ED98D167EFF4900252A6D /* 目的地查询.png in Resources */,
+				841ED98E167EFF4900252A6D /* 确认提交.png in Resources */,
+				841ED98F167EFF4900252A6D /* 箭头.png in Resources */,
+				841ED990167EFF4900252A6D /* 继续预定.png in Resources */,
+				841ED991167EFF4900252A6D /* 背景.png in Resources */,
+				841ED992167EFF4900252A6D /* 车票查询.png in Resources */,
+				841ED993167EFF4900252A6D /* 返回.png in Resources */,
+				841ED994167EFF4900252A6D /* 退出登录.png in Resources */,
+				841ED995167EFF4900252A6D /* 选中.png in Resources */,
+				841ED996167EFF4900252A6D /* 选择框中部.png in Resources */,
+				841ED997167EFF4900252A6D /* 选择框头部.png in Resources */,
+				841ED998167EFF4900252A6D /* 选择框头部@2x.png in Resources */,
+				841ED999167EFF4900252A6D /* 选择框底部.png in Resources */,
+				841ED99A167EFF4900252A6D /* 透明背景.png in Resources */,
+				841ED99B167EFF4900252A6D /* 隐藏键盘.png in Resources */,
+				841ED99C167EFF4900252A6D /* 预定.png in Resources */,
+				841ED99D167EFF4900252A6D /* 预定失效.png in Resources */,
+				841ED99E167EFF4900252A6D /* 首页面背景.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841ED91E167EFEF500252A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841ED933167EFEF500252A6D /* main.m in Sources */,
+				841ED937167EFEF500252A6D /* AppDelegate.m in Sources */,
+				841ED93A167EFEF500252A6D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		841ED92F167EFEF500252A6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841ED930167EFEF500252A6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841ED93E167EFEF500252A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		841ED93F167EFEF500252A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841ED941167EFEF500252A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Traval100/Traval100-Prefix.pch";
+				INFOPLIST_FILE = "Traval100/Traval100-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		841ED942167EFEF500252A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Traval100/Traval100-Prefix.pch";
+				INFOPLIST_FILE = "Traval100/Traval100-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841ED91C167EFEF500252A6D /* Build configuration list for PBXProject "Traval100" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841ED93E167EFEF500252A6D /* Debug */,
+				841ED93F167EFEF500252A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841ED940167EFEF500252A6D /* Build configuration list for PBXNativeTarget "Traval100" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841ED941167EFEF500252A6D /* Debug */,
+				841ED942167EFEF500252A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841ED919167EFEF500252A6D /* Project object */;
+}
