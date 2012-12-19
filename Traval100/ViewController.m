@@ -42,6 +42,7 @@
 -(void)enterthenextinterface:(id)sender{
     NSLog(@"111");
     UIButton*bu=(UIButton*)sender;
+    NSLog(@"111");
     switch (bu.tag) {
         case 1:
             
